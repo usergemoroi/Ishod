@@ -1,0 +1,101 @@
+# Dependencies
+third_party/
+external/
+vendor/
+
+# Build directories
+build/
+cmake-build-*/
+out/
+Debug/
+Release/
+
+# Android
+*.apk
+*.aab
+*.so
+*.dex
+*.class
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+*.nar
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+CMakeLists.txt.user
+
+# IDE
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Compiled binaries
+*.exe
+*.dll
+*.so
+*.o
+*.a
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Android specific
+.gradle/
+local.properties
+gradle.properties
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+bin/
+gen/
+out/
+gradle/
+
+# C++ specific
+*.swo
+*.swn
+*.out
+*.toc
+
+# Configuration files with sensitive data
+secrets.json
+config_secrets.*
+local_config.*
